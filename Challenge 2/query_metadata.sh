@@ -1,0 +1,1 @@
+curl "http://metadata.google.internal/computeMetadata/v1/instance/tags?alt=json" -H "Metadata-Flavor: Google" -o output.json
