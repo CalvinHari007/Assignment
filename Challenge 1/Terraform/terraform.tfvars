@@ -1,0 +1,15 @@
+instance_id = "three-tier-app"
+env_name    = "prod"
+config      = "regional-us-west1"
+num_nodes   = 1
+project_id  = "[ENTER-GCP-PROJECT-ID]"
+spanner_dbname = "app-db"
+firestore_id = "app-storage"
+storage_size = 500
+app_service_name = "service-layer"
+container_image_path ="cos-cloud/cos-stable"
+source_url = "https://storage.googleapis.com/[BUCKET_NAME]/[OBJECT_NAME]"
+app_eng_port = "8080"
+front_service_name= "front-end"
+front_runtime = "nodejs10"
+front_entrypoint = "node ./app.js"
